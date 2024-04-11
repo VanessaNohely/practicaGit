@@ -30,3 +30,7 @@ operaciones("division",4,6)
 #area cuadrado
 def area_cuadrado(lado):
     print(f"el area es: {lado*lado}")
+
+#prueba area cuadrado
+print("prueba funcion area cuadrado:")
+area_cuadrado(5)
