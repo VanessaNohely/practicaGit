@@ -24,3 +24,9 @@ operaciones("suma",5,6)
 operaciones("resta",7,9)
 operaciones("multiplicacion",4,6)
 operaciones("division",4,6)
+
+
+
+#area cuadrado
+def area_cuadrado(lado):
+    print(f"el area es: {lado*lado}")
