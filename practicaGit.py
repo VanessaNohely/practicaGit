@@ -4,6 +4,7 @@ def tabla(numero):
         print(f"{numero} x {x} = {numero*x}")
 
 # Prueba de funcion tabla
+print("Prueba funcion tabla:")
 tabla(9)
 
 #Funcion operaciones
@@ -17,5 +18,9 @@ def operaciones(operacion,num1,num2):
     elif operacion == "division":
         print(f"{num1} / {num2} = {num1/num2}")
 
-#prueba funcion operaciones
-operaciones("division",3,4)
+#prueba operaciones
+print("Prueba funcion operaciones:")
+operaciones("suma",5,6)
+operaciones("resta",7,9)
+operaciones("multiplicacion",4,6)
+operaciones("division",4,6)
